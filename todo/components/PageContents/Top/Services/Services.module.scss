@@ -1,0 +1,85 @@
+.body {
+  line-height: 1.4;
+}
+
+.contentBox {
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Roboto',Helvetica Neue,Helvetica,sans-serif;
+}
+
+.title {
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  vertical-align: top;
+  margin-right: 5%;
+  color: #add9d9;
+  font-weight: 900;
+  letter-spacing: .05em;
+  font-size: 30px;
+
+  &::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 90px;
+    height: 8px;
+    margin: 3% auto;
+    background-color: #add9d9;
+    content: '';
+  }
+}
+
+.img {
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+.serviceList {
+  width: 65%;
+  display: inline-block;
+}
+
+.descriptionArea {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.description {
+  font-size: 16px;
+  letter-spacing: .01em;
+  line-height: 1.6;
+  width: 60%;
+}
+
+.button {
+  > a {
+    position: relative;
+    background-color: #61a9a9;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 44px 10px 24px;
+    text-decoration: none;
+    :hover,
+    :visited {
+      background-color: #6eb8b8;
+      text-decoration: none;
+      transition: .3s;
+    }
+  }
+}
+
+.buttonIcon {
+  position: absolute;
+  background: url('/img/common/icon/icnLink.svg');
+  height: 12px;
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+}
