@@ -32,7 +32,7 @@ const Services: React.FC = () => {
   ]
 
   return (
-    <div className={styles.contentBox}>
+    <section className={styles.contentBox}>
       <h3 className={styles.title}>OUR SERVICE</h3>
       <div className={styles.serviceList}>
         {serviceList.map((service, index) => {
@@ -54,7 +54,7 @@ const Services: React.FC = () => {
           )
         })}
       </div>
-    </div>
+    </section>
   );
 }
 
