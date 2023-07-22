@@ -1,9 +1,8 @@
 import React from "react";
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import styles from "@styles/Home.module.scss"
-import Link from 'next/link'
 import Services from '../components/PageContents/Top/Services/Services';
+import Contact from '../components/PageContents/Top/Contact/Contact';
 
 const Index: NextPage = () => {
   return (
@@ -18,6 +17,7 @@ const Index: NextPage = () => {
       </Head>
       <main>
         <Services />
+        <Contact />
       </main>
       <footer></footer>
     </div>
