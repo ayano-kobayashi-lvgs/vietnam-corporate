@@ -3,6 +3,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Services from '../components/PageContents/Top/Services/Services';
 import Contact from '../components/PageContents/Top/Contact/Contact';
+import Company from '../components/PageContents/Top/Company/Company';
 
 const Index: NextPage = () => {
   return (
@@ -17,6 +18,7 @@ const Index: NextPage = () => {
       </Head>
       <main>
         <Services />
+        <Company />
         <Contact />
       </main>
       <footer></footer>

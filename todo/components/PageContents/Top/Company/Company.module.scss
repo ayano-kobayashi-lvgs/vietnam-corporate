@@ -1,0 +1,56 @@
+$color-primaryGreen: #00A6A6;
+
+.contentBox {
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Roboto',Helvetica Neue,Helvetica,sans-serif;
+  line-height: 1.4;
+}
+
+.messageBox {
+  display: inline-block;
+  width: 65%;
+  vertical-align: top;
+}
+
+.listItem {
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto 0;
+
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+
+    .infoArea {
+      margin: 0 8% 0 0;
+    }
+  }
+}
+
+.img {
+  width: 50%;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.infoArea {
+  width: 50%;
+  margin-left: 8%;
+}
+
+.header {
+  color: $color-primaryGreen;
+  font-weight: 700;
+  letter-spacing: .05em;
+  font-size: 24px;
+}
+
+// TODO: 偶数番目だけ
+// margin: 0 8% 0 0;
+// text-align: right

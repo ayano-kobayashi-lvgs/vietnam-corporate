@@ -5,29 +5,6 @@
   line-height: 1.4;
 }
 
-.title {
-  display: inline-block;
-  position: relative;
-  width: 25%;
-  vertical-align: top;
-  margin-right: 5%;
-  color: #add9d9;
-  font-weight: 900;
-  letter-spacing: .05em;
-  font-size: 30px;
-
-  &::after {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 90px;
-    height: 8px;
-    margin: 3% auto;
-    background-color: #add9d9;
-    content: '';
-  }
-}
-
 .img {
   display: inline-block;
   margin-bottom: 2%;

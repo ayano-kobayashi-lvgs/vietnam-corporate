@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Services.module.scss';
 import Image from 'next/image';
+import TitleSection from '../../../Atoms/Title/TitleSection/TitleSection';
 
 type ServiceProps = {
   alt: string;
@@ -33,7 +34,7 @@ const Services: React.FC = () => {
 
   return (
     <section className={styles.contentBox}>
-      <h3 className={styles.title}>OUR SERVICE</h3>
+      <TitleSection title={'OUR SERVICE'}></TitleSection>
       <div className={styles.serviceList}>
         {serviceList.map((service, index) => {
           return (

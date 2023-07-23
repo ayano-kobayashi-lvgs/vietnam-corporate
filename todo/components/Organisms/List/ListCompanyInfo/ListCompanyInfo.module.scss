@@ -1,0 +1,46 @@
+$color-quarterlyGreen: #ADD9D9;
+$color-darkGray: #454545;
+
+.list {
+  font-weight: 300;
+  list-style: none;
+  padding-left: 0;
+}
+
+.item {
+  margin-top: 5%;
+
+  p {
+    margin: 0;
+  }
+}
+
+.title {
+  color: $color-quarterlyGreen;
+  font-weight: 700;
+  letter-spacing: .05em;
+}
+
+.text {
+  font-size: 16px;
+  color: $color-darkGray;
+}
+
+.textWithSpace {
+  padding: 5px 0;
+}
+
+.link {
+  display: inline-block;
+  color: $color-darkGray;
+  text-decoration: none;
+
+  &:hover {
+      color: $color-darkGray;
+      text-decoration: underline;
+  }
+
+  &:visited {
+      color: $color-darkGray;
+  }
+}
