@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Services from '../components/PageContents/Top/Services/Services';
 import Contact from '../components/PageContents/Top/Contact/Contact';
 import Company from '../components/PageContents/Top/Company/Company';
+import MissionValue from "../components/PageContents/Top/MissionValue/MissionValue";
 
 const Index: NextPage = () => {
   return (
@@ -17,6 +18,7 @@ const Index: NextPage = () => {
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" media="print" onLoad="this.media='all'" />
       </Head>
       <main>
+        <MissionValue />
         <Services />
         <Company />
         <Contact />
