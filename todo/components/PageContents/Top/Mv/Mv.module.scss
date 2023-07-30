@@ -1,0 +1,33 @@
+$color-Purple: #AAB6F2;
+
+.background {
+  height: 104vh;
+  min-height: 770px;
+  margin-top: -10%;
+  box-shadow: inset 0 0 0 2000px rgba($color-Purple, .60);
+  color: #fff;
+  background: url('/img/top/imgMv.jpg') 80% center no-repeat;
+  background-size: cover;
+}
+
+.contBox {
+  position: relative;
+  top: 45%;
+  margin: 0 5%;
+  font-family: 'Roboto',Helvetica Neue,Helvetica,sans-serif;
+}
+
+.messageMain {
+  font-size: 100px;
+  line-height: 1.1;
+  font-weight: 900;
+  letter-spacing: .02em;
+  margin: 0;
+}
+
+.messageSub {
+  font-size: 30px;
+  padding: 2% 0;
+  font-weight: 300;
+  margin: 0;
+}
