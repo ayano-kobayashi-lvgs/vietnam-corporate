@@ -75,5 +75,15 @@
         "title": "Leverages Career Mexico"
       }
     }
+  },
+  "contact": {
+    "address": {
+      "title": "Địa chỉ",
+      "info": "Tầng 2, Tòa 101 Láng Hạ, Láng Hạ, Đống Đa, Hà Nội"
+    },
+    "email": {
+      "title": "Email",
+      "info": "vn-contact@leverages.jp"
+    }
   }
 }

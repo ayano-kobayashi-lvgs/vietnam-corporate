@@ -75,5 +75,15 @@
         "title": "Leverages Career Mexico"
       }
     }
+  },
+  "contact": {
+    "address": {
+      "title": "Address",
+      "info": "2F, 101 Lang Ha Street, Lang Ha Ward, Dong Da District, Hanoi, Vietnam"
+    },
+    "email": {
+      "title": "Email",
+      "info": "vn-contact@leverages.jp"
+    }
   }
 }
