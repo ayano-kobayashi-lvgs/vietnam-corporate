@@ -1,5 +1,6 @@
 import React from "react";
 import type { NextPage } from 'next';
+import '../locale/i18n';
 import Head from 'next/head';
 import Services from '../components/PageContents/Top/Services/Services';
 import Contact from '../components/PageContents/Top/Contact/Contact';
