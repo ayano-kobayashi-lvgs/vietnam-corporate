@@ -4,6 +4,7 @@ import TitleSection from '../../../Atoms/Title/TitleSection/TitleSection';
 import MessageMain from '../../../Atoms/Message/MessageMain/MessageMain';
 import MessageSub from '../../../Atoms/Message/MessageSub/MessageSub';
 import ListCompanyInfo from '../../../Organisms/List/ListCompanyInfo/ListCompanyInfo';
+import { useTranslation } from 'react-i18next';
 
 type MessageProps = {
   messageMain: string;
@@ -25,9 +26,10 @@ type CompanyInfoListProps = {
 };
 
 const Company: React.FC = () => {
+  const { t } = useTranslation();
   const Message: MessageProps = {
-    messageMain: 'Based in Tokyo, Leverages Group is a fast growing global recruitment group that has 20+ offices across Japan and worldwide.',
-    messageSub: 'We pursue not only the happiness of our clients and customers but also our employees, bringing the best out of everyone and creating win-win situations and values for all people concerned.'
+    messageMain: t('company.messageMain'),
+    messageSub: t('company.messageSub')
   };
 
   const companyInfoList: CompanyInfoListProps[] = [
@@ -35,23 +37,26 @@ const Company: React.FC = () => {
       id: 'vietnamOfficeInfo',
       src: '/img/top/imgSgBranch.png',
       alt: 'Branches',
-      header: 'VIETNAM OFFICE',
+      header: t('company.branch.header'),
       infoList: [
         {
-          title: 'COMPANY NAME',
-          description: [{ text: 'Leverages Career Vietnam Co., Ltd.' }]
+          title: t('company.branch.companyName.title'),
+          description: [{ text: t('company.branch.companyName.description')}]
         },
         {
-          title: 'ESTABLISHED',
-          description: [{ text: 'Dec 2019' }],
+          title: t('company.branch.establishedDate.title'),
+          description: [{ text: t('company.branch.establishedDate.description')}],
         },
         {
-          title: 'BUSINESS',
-          description: [{ text: 'Human resources business'}, { text: 'Study abroad consulting business'}],
+          title: t('company.branch.business.title'),
+          description: [
+            { text: t('company.branch.business.description01')},
+            { text: t('company.branch.business.description02')}
+          ],
         },
         {
-          title: 'MANAGING DIRECTOR',
-          description: [{ text: 'Shuhei Nishikawa' }],
+          title: t('company.branch.managingDirector.title'),
+          description: [{ text: t('company.branch.managingDirector.description')}],
         }
       ],
       hasSpace: false
@@ -60,34 +65,34 @@ const Company: React.FC = () => {
       id: 'headOfficeInfo',
       src: '/img/top/imgHeadOffice.jpg',
       alt: 'Head Office',
-      header: 'HEAD OFFICE',
+      header: t('company.headOffice.header'),
       infoList: [
         {
-          title: 'COMPANY NAME',
-          description: [{ text: 'Leverages Co., Ltd.' }]
+          title: t('company.headOffice.companyName.title'),
+          description: [{ text: t('company.headOffice.companyName.description')}]
         },
-        { title: 'ESTABLISHED',
-          description: [{ text: 'April 2005' }]
+        { title: t('company.headOffice.establishedDate.title'),
+          description: [{ text: t('company.headOffice.establishedDate.description')}]
         },
-        { title: 'BUSINESS',
+        { title: t('company.headOffice.business.title'),
           description: [
-            { text: 'Recruitment Services' },
-            { text: 'System Engineering Services' },
-            { text: 'Web Media Services' }
+            { text: t('company.headOffice.business.description01')},
+            { text: t('company.headOffice.business.description02')},
+            { text: t('company.headOffice.business.description03')}
           ]
         },
         {
-          title: 'REPRESENTATIVE DIRECTOR',
-          description: [{ text: 'Tomohide Iwatsuki' }]
+          title: t('company.headOffice.representativeDirector.title'),
+          description: [{ text: t('company.headOffice.representativeDirector.description')}]
         },
         {
-          title: 'ASSOCIATED COMPANIES',
+          title: t('company.headOffice.associateCompanies.title'),
           description: [
-              { text: 'Levtech Co., Ltd.', link: 'https://levtech.jp/company/' },
-              { text: 'Leverages MedicalCare Co., Ltd.', link: 'https://leverages-medicalcare.jp/' },
-              { text: 'Leverages M&A Advisory Co., Ltd.', link: 'https://leveragesma.jp/' },
-              { text: 'Leverages Career Mexico S.A. de C.V.', link: 'https://mx.leveragescareer.com/?lang=en' },
-              { text: 'Levtech Co., Ltd.', link: 'https://leveragescareer.com/ja/cn/info/about/' }
+              { text: t('company.headOffice.associateCompanies.levtech'), link: 'https://levtech.jp/company/' },
+              { text: t('company.headOffice.associateCompanies.leveragesMedicalCare'), link: 'https://leverages-medicalcare.jp/' },
+              { text: t('company.headOffice.associateCompanies.mAndAAdvisory'), link: 'https://leveragesma.jp/' },
+              { text: t('company.headOffice.associateCompanies.mexicoBranch'), link: 'https://mx.leveragescareer.com/?lang=en' },
+              { text: t('company.headOffice.associateCompanies.ChinaBranch'), link: 'https://leveragescareer.com/ja/cn/info/about/' }
           ]
         }
       ],
@@ -97,17 +102,17 @@ const Company: React.FC = () => {
       id: 'relatedServicesInfo',
       src: '/img/top/imgService.jpg',
       alt: 'Related Services',
-      header: 'RELATED SERVICES',
+      header: t('company.relatedServices.header'),
       infoList: [
         {
           description: [
-            { text: 'Leverages Global Support', link: 'https://lp.leverages-global-support.com/' },
-            { text: 'WeXpats', link: 'https://we-xpats.com/en/destination/as/jp/' },
-            { text: 'WeXpats Guide', link: 'https://we-xpats.com/en/guide/as/jp/' },
-            { text: 'WeXpats Forum', link: 'https://we-xpats.com/en/forum/as/jp/' },
-            { text: 'WeXpats Jobs', link: 'https://we-xpats.com/en/job/as/jp/' },
-            { text: 'WeXpats Biz', link: 'https://we-xpats.com/ja/biz/as/jp/' },
-            { text: 'Leverages Career Mexico', link: 'https://lc-mexico.com/' },
+            { text: t('company.relatedServices.leveragesGlobalSupport.title'), link: 'https://lp.leverages-global-support.com/' },
+            { text: t('company.relatedServices.wexpats.title'), link: 'https://we-xpats.com/en/destination/as/jp/' },
+            { text: t('company.relatedServices.wexpatsGuide.title'), link: 'https://we-xpats.com/en/guide/as/jp/' },
+            { text: t('company.relatedServices.wexpatsForum.title'), link: 'https://we-xpats.com/en/forum/as/jp/' },
+            { text: t('company.relatedServices.wexpatsJobs.title'), link: 'https://we-xpats.com/en/job/as/jp/' },
+            { text: t('company.relatedServices.wexpatsBiz.title'), link: 'https://we-xpats.com/ja/biz/as/jp/' },
+            { text: t('company.relatedServices.lcMexico.title'), link: 'https://lc-mexico.com/' },
           ]
         }
       ],

@@ -1,0 +1,106 @@
+{
+  "mv": {
+    "messageMain": "Enjoy the new.",
+    "messageSub": "Create your future career with our experienced consultants."
+  },
+  "missionValue": {
+    "title": "MISSION & VALUE",
+    "messageMain": "「海外に興味のある日本人、日本に興味のあるベトナム人に、最適なキャリアを提供する」",
+    "messageSub": "日本には海外で働いてみたいという日本人がたくさんいます。一方で日本で働いてみたいというベトナム人や、現在ベトナムで就業しているがさらなるキャリアアップを図りたいというベトナム人もたくさんいます。そういった方々に、エージェント事業にて就職・転職・留学など、すべてのキャリアプランから最適な提案をいたします。日本人・ベトナム人双方のキャリア創造と両国の社会問題の解決を目指します。",
+    "officialPosition": "General Director",
+    "representativeName": "Shuhei Nishikawa"
+  },
+  "services": {
+    "title": "SERVICES",
+    "descriptionWexpatsJobs": "WeXpats Jobsは日本で仕事を探している外国人のための求人サイトです。 国内最大規模の外国人歓迎求人の中から、母国語で探すことができるサービスです。",
+    "descriptionWexpatsSchool": "WeXpats Schoolは、日本で留学を考えている外国人のための留学専門エージェントです。留学の相談から日本での生活までを一貫してサポートするサービスです。",
+    "descriptionWexpatsNihongo": "WeXpats Nihongoは日本語を学びたい外国人のための、語学学習サービスです。反転授業を活用した「アウトプット」重視の実践的な授業で、将来のキャリアアップを支援します。"
+  },
+  "company": {
+    "messageMain": "レバレジーズグループは、日本・世界に20以上の拠点を展開し、創業以来成長を続けるグローバルカンパニーです。",
+    "messageSub": "「関係者全員の幸福の追求」という経営方針のもと、お客様、従業員など、関わるすべての方とのWin-Winの関係構築を目指します。",
+    "branch": {
+      "header": "VIETNAM OFFICE",
+      "companyName": {
+        "title": "企業名",
+        "description": "Leverages Career Vietnam Co., Ltd."
+      },
+      "establishedDate": {
+        "title": "設立",
+        "description": "2019年12月"
+      },
+      "business": {
+        "title": "事業内容",
+        "description01": "人材関連事業",
+        "description02": "留学コンサルティング事業"
+      },
+      "managingDirector": {
+        "title": "事業責任者",
+        "description": "西川秀平"
+      }
+    },
+    "headOffice": {
+      "header": "HEAD OFFICE",
+      "companyName": {
+        "title": "企業名",
+        "description": "レバレジーズ株式会社"
+      },
+      "establishedDate": {
+        "title": "設立",
+        "description": "2005年4月"
+      },
+      "business": {
+        "title": "事業内容",
+        "description01": "人材関連事業",
+        "description02": "システムエンジニアリング事業",
+        "description03": "自社メディア事業"
+      },
+      "representativeDirector": {
+        "title": "代表取締役",
+        "description": "岩槻 知秀"
+      },
+      "associateCompanies": {
+        "title": "関連会社",
+        "levtech": "レバテック株式会社",
+        "leveragesMedicalCare": "レバレジーズメディカルケア株式会社",
+        "mAndAAdvisory": "レバレジーズM&Aアドバイザリー株式会社",
+        "mexicoBranch": "Leverages Career Mexico S.A. de C.V.",
+        "ChinaBranch": "Leverages Career China Co., Ltd."
+      }
+    },
+    "relatedServices": {
+      "header": "RELATED SERVICES",
+      "leveragesGlobalSupport": {
+        "title": "Leverages Global Support"
+      },
+      "wexpats": {
+        "title": "WeXpats"
+      },
+      "wexpatsGuide": {
+        "title": "WeXpats Guide"
+      },
+      "wexpatsForum": {
+        "title": "WeXpats Forum"
+      },
+      "wexpatsJobs": {
+        "title": "WeXpats Jobs"
+      },
+      "wexpatsBiz": {
+        "title": "WeXpats Biz"
+      },
+      "lcMexico": {
+        "title": "Leverages Career Mexico"
+      }
+    }
+  },
+  "contact": {
+    "address": {
+      "title": "住所",
+      "info": "2F, 101 Lang Ha Street, Lang Ha Ward, Dong Da District, Hanoi, Vietnam"
+    },
+    "email": {
+      "title": "Eメール",
+      "info": "vn-contact@leverages.jp"
+    }
+  }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Services.module.scss';
 import Image from 'next/image';
 import TitleSection from '../../../Atoms/Title/TitleSection/TitleSection';
+import { useTranslation } from 'react-i18next';
 
 type ServiceProps = {
   alt: string;
@@ -11,30 +12,31 @@ type ServiceProps = {
 }
 
 const Services: React.FC = () => {
+  const { t } = useTranslation();
   const serviceList: ServiceProps[] = [
     {
       alt: 'WeXpatsJobs',
       src: '/img/common/logo/logo_WexpatsJobs.svg',
-      description: 'WeXpats Job is a website for job search for the non-Japanese people who are looking to work in Japan. WeXpats Job has one of the largest pools of jobs which welcome foreign employment. With WeXpats Job, you can search jobs in your own language!',
+      description: t('services.descriptionWexpatsJobs'),
       reflink: 'https://we-xpats.com/en/job/as/jp'
     },
     {
       alt: 'WeXpatsSchool',
       src: '/img/common/logo/logo_WeXpatsSchool.svg',
-      description: 'WeXpats School is an agent which specializes in service for studying abroad for the people who are thinking about studying in Japan. Our school provides a full range of services from consultation for study abroad to living in Japan.',
+      description: t('services.descriptionWexpatsSchool'),
       reflink: 'https://we-xpats.com/en/school/as/jp/'
     },
     {
       alt: 'WeXpatsNihongo',
       src: '/img/common/logo/logo_WeXpatsNihongo.svg',
-      description: 'WeXpats Nihongo is a language learning service for non-Japanese people. The method of active learning is used for practical vocal class.',
+      description: t('services.descriptionWexpatsNihongo'),
       reflink: 'https://lp.we-xpats.com/vn/nihongo/vi/'
     }
   ]
 
   return (
     <section className={styles.contentBox}>
-      <TitleSection title={'OUR SERVICE'}></TitleSection>
+      <TitleSection title={t('services.title')}></TitleSection>
       <div className={styles.serviceList}>
         {serviceList.map((service, index) => {
           return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Mv.module.scss';
+import { t } from 'i18next';
 
 type MvProps = {
   messageMain: string;
@@ -8,8 +9,8 @@ type MvProps = {
 
 const Mv: React.FC = () => {
   const mv: MvProps = {
-    messageMain: 'Enjoy the new.',
-    messageSub: 'Create your future career with our experienced consultants.'
+    messageMain: t('mv.messageMain'),
+    messageSub: t('mv.messageSub')
   };
 
   return (

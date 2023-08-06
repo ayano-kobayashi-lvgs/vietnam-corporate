@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Contact.module.scss';
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 type ContactProps = {
   alt: string;
@@ -10,18 +11,19 @@ type ContactProps = {
 }
 
 const Contact: React.FC = () => {
+  const { t } = useTranslation();
   const contactList: ContactProps[] = [
     {
       alt: 'Address',
       src: '/img/common/icon/icnLocation.png',
-      itemTitle: 'Address',
-      info: '2F, 101 Lang Ha Street, Lang Ha Ward, Dong Da District, Hanoi, Vietnam'
+      itemTitle: t('contact.address.title'),
+      info: t('contact.address.info')
     },
     {
       alt: 'Email',
       src: '/img/common/icon/icnMail.png',
-      itemTitle: 'Email',
-      info: 'vn-contact@leverages.jp'
+      itemTitle: t('contact.email.title'),
+      info: t('contact.email.info')
     },
   ]
 
