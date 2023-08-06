@@ -1,0 +1,79 @@
+{
+  "company": {
+    "messageMain": "レバレジーズグループは、日本・世界に20以上の拠点を展開し、創業以来成長を続けるグローバルカンパニーです。",
+    "messageSub": "「関係者全員の幸福の追求」という経営方針のもと、お客様、従業員など、関わるすべての方とのWin-Winの関係構築を目指します。",
+    "branch": {
+      "header": "VIETNAM OFFICE",
+      "companyName": {
+        "title": "企業名",
+        "description": "Leverages Career Vietnam Co., Ltd."
+      },
+      "establishedDate": {
+        "title": "設立",
+        "description": "2019年12月"
+      },
+      "business": {
+        "title": "事業内容",
+        "description01": "人材関連事業",
+        "description02": "留学コンサルティング事業"
+      },
+      "managingDirector": {
+        "title": "事業責任者",
+        "description": "西川秀平"
+      }
+    },
+    "headOffice": {
+      "header": "HEAD OFFICE",
+      "companyName": {
+        "title": "企業名",
+        "description": "レバレジーズ株式会社"
+      },
+      "establishedDate": {
+        "title": "設立",
+        "description": "2005年4月"
+      },
+      "business": {
+        "title": "事業内容",
+        "description01": "人材関連事業",
+        "description02": "システムエンジニアリング事業",
+        "description03": "自社メディア事業"
+      },
+      "representativeDirector": {
+        "title": "代表取締役",
+        "description": "岩槻 知秀"
+      },
+      "associateCompanies": {
+        "title": "関連会社",
+        "levtech": "レバテック株式会社",
+        "leveragesMedicalCare": "レバレジーズメディカルケア株式会社",
+        "mAndAAdvisory": "レバレジーズM&Aアドバイザリー株式会社",
+        "mexicoBranch": "Leverages Career Mexico S.A. de C.V.",
+        "ChinaBranch": "Leverages Career China Co., Ltd."
+      }
+    },
+    "relatedServices": {
+      "header": "RELATED SERVICES",
+      "leveragesGlobalSupport": {
+        "title": "Leverages Global Support"
+      },
+      "wexpats": {
+        "title": "WeXpats"
+      },
+      "wexpatsGuide": {
+        "title": "WeXpats Guide"
+      },
+      "wexpatsForum": {
+        "title": "WeXpats Forum"
+      },
+      "wexpatsJobs": {
+        "title": "WeXpats Jobs"
+      },
+      "wexpatsBiz": {
+        "title": "WeXpats Biz"
+      },
+      "lcMexico": {
+        "title": "Leverages Career Mexico"
+      }
+    }
+  }
+}

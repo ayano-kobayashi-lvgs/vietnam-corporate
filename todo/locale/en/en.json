@@ -1,0 +1,79 @@
+{
+  "company": {
+    "messageMain": "Based in Tokyo, Leverages Group is a fast growing global recruitment group that has 20+ offices across Japan and worldwide.",
+    "messageSub": "We pursue not only the happiness of our clients and customers but also our employees, bringing the best out of everyone and creating win-win situations and values for all people concerned.",
+    "branch": {
+      "header": "VIETNAM OFFICE",
+      "companyName": {
+        "title": "COMPANY NAME",
+        "description": "Leverages Career Vietnam Co., Ltd."
+      },
+      "establishedDate": {
+        "title": "ESTABLISHED",
+        "description": "Dec 2019"
+      },
+      "business": {
+        "title": "BUSINESS",
+        "description01": "Human resources business",
+        "description02": "Study abroad consulting business"
+      },
+      "managingDirector": {
+        "title": "MANAGING DIRECTOR",
+        "description": "Shuhei Nishikawa"
+      }
+    },
+    "headOffice": {
+      "header": "HEAD OFFICE",
+      "companyName": {
+        "title": "COMPANY NAME",
+        "description": "Leverages Co., Ltd."
+      },
+      "establishedDate": {
+        "title": "ESTABLISHED",
+        "description": "April 2005"
+      },
+      "business": {
+        "title": "BUSINESS",
+        "description01": "Recruitment Services",
+        "description02": "System Engineering Services",
+        "description03": "Web Media Services"
+      },
+      "representativeDirector": {
+        "title": "REPRESENTATIVE DIRECTOR",
+        "description": "Tomohide Iwatsuki"
+      },
+      "associateCompanies": {
+        "title": "ASSOCIATED COMPANIES",
+        "levtech": "Levtech Co., Ltd.",
+        "leveragesMedicalCare": "Leverages MedicalCare Co., Ltd.",
+        "mAndAAdvisory": "Leverages M&A Advisory Co., Ltd.",
+        "mexicoBranch": "Leverages Career Mexico S.A. de C.V.",
+        "ChinaBranch": "Leverages Career China Co., Ltd."
+      }
+    },
+    "relatedServices": {
+      "header": "RELATED SERVICES",
+      "leveragesGlobalSupport": {
+        "title": "Leverages Global Support"
+      },
+      "wexpats": {
+        "title": "WeXpats"
+      },
+      "wexpatsGuide": {
+        "title": "WeXpats Guide"
+      },
+      "wexpatsForum": {
+        "title": "WeXpats Forum"
+      },
+      "wexpatsJobs": {
+        "title": "WeXpats Jobs"
+      },
+      "wexpatsBiz": {
+        "title": "WeXpats Biz"
+      },
+      "lcMexico": {
+        "title": "Leverages Career Mexico"
+      }
+    }
+  }
+}

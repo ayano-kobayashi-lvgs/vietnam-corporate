@@ -1,0 +1,79 @@
+{
+  "company": {
+    "messageMain": "Tập đoàn Leverages tiếp tục duy trì và phát triển, mở rộng công ty toàn cầu song hành là mục tiêu mở rộng trên 20 chi nhánh trong nước và quốc tế.",
+    "messageSub": "Chúng tôi với phương châm mang niềm hạnh phúc tới cho khách hàng, nhân viên, cùng với mục tiêu xây dựng mối quan hệ cùng nhau phát triển (Win win).",
+    "branch": {
+      "header": "VIETNAM OFFICE",
+      "companyName": {
+        "title": "Tên công ty",
+        "description": "Công ty trách nhiệm hữu hạn Leverages Career Vietnam"
+      },
+      "establishedDate": {
+        "title": "Thành lập",
+        "description": "12/2019"
+      },
+      "business": {
+        "title": "Lĩnh vực hoạt động",
+        "description01": "Tuyển dụng nhân sự",
+        "description02": "Dịch vụ tư vấn du học"
+      },
+      "managingDirector": {
+        "title": "Người chịu trách nhiệm",
+        "description": "Nishikawa Shuhei"
+      }
+    },
+    "headOffice": {
+      "header": "HEAD OFFICE",
+      "companyName": {
+        "title": "Tên công ty",
+        "description": "Công ty cổ phần Leverages"
+      },
+      "establishedDate": {
+        "title": "Thành lập",
+        "description": "4/2005"
+      },
+      "business": {
+        "title": "Lĩnh vực",
+        "description01": "Lĩnh vực liên quan tới tuyển dụng",
+        "description02": "Lĩnh vực xây dựng kỹ thuật hệ thống",
+        "description03": "Lĩnh vực truyền thông mạng xã hội"
+      },
+      "representativeDirector": {
+        "title": "Giám đốc",
+        "description": "Tomohide Iwatsuki"
+      },
+      "associateCompanies": {
+        "title": "Công ty liên quan",
+        "levtech": "Công ty Levtech",
+        "leveragesMedicalCare": "Công ty Leverages Medicalcare",
+        "mAndAAdvisory": "Công ty Leverages M&A Advisory",
+        "mexicoBranch": "Leverages Career Mexico S.A. de C.V.",
+        "ChinaBranch": "Leverages Career China Co., Ltd."
+      }
+    },
+    "relatedServices": {
+      "header": "RELATED SERVICES",
+      "leveragesGlobalSupport": {
+        "title": "Leverages Global Support"
+      },
+      "wexpats": {
+        "title": "WeXpats"
+      },
+      "wexpatsGuide": {
+        "title": "WeXpats Guide"
+      },
+      "wexpatsForum": {
+        "title": "WeXpats Forum"
+      },
+      "wexpatsJobs": {
+        "title": "WeXpats Jobs"
+      },
+      "wexpatsBiz": {
+        "title": "WeXpats Biz"
+      },
+      "lcMexico": {
+        "title": "Leverages Career Mexico"
+      }
+    }
+  }
+}
