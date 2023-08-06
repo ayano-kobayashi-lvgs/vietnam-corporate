@@ -1,4 +1,11 @@
 {
+  "missionValue": {
+    "title": "MISSION & VALUE",
+    "messageMain": "「Mang đến những công việc phù hợp nhất cho người Nhật yêu thích nước ngoài, hay người Việt Nam yêu thích Nhật Bản.」",
+    "messageSub": "Chúng tôi nhận thấy rằng có nhiều người Nhật mong muốn cơ hội làm việc tại nước ngoài. Ngược lại, tại Việt Nam những bạn muốn làm việc tại Nhật với khát vọng nâng cao trình độ chuyên môn bản thân ngày càng tăng lên. Để hiện thực hóa ước mơ đó Chúng tôi - đơn vị tuyển dụng và du học sẽ xây dựng những phương án tốt nhất làm cầu nối giữa các quốc gia góp phần giải quyết các vấn đề xã hội.",
+    "officialPosition": "General Director",
+    "representativeName": "Shuhei Nishikawa"
+  },
   "company": {
     "messageMain": "Tập đoàn Leverages tiếp tục duy trì và phát triển, mở rộng công ty toàn cầu song hành là mục tiêu mở rộng trên 20 chi nhánh trong nước và quốc tế.",
     "messageSub": "Chúng tôi với phương châm mang niềm hạnh phúc tới cho khách hàng, nhân viên, cùng với mục tiêu xây dựng mối quan hệ cùng nhau phát triển (Win win).",

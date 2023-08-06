@@ -4,11 +4,12 @@ import styles from './MissionValue.module.scss';
 import TitleSection from '../../../Atoms/Title/TitleSection/TitleSection';
 import MessageMain from '../../../Atoms/Message/MessageMain/MessageMain';
 import MessageSub from '../../../Atoms/Message/MessageSub/MessageSub';
+import { useTranslation } from 'react-i18next';
 
 type MissionValueProps = {
   title: string;
   messageMain: string;
-  subMessage: string;
+  messageSub: string;
   officialPosition: string;
   representativeName: string;
   src: string;
@@ -16,12 +17,13 @@ type MissionValueProps = {
 }
 
 const MissionValue: React.FC = () => {
+  const { t } = useTranslation();
   const missionValue: MissionValueProps = {
-    title: 'MISSION & VALUE',
-    messageMain: 'Open the new doors for Japanese and Vietnamese people beyond the border.',
-    subMessage: 'A large number of people recognize that working or studying abroad is on their bucket list, We can provide the best options for you in regard to working and studying abroad.We aim to support both Vietnamese and Japanese recruitment activities with solving social problems.',
-    officialPosition: 'General Director',
-    representativeName: 'Shuhei Nishikawa',
+    title: t('missionValue.title'),
+    messageMain: t('missionValue.messageMain'),
+    messageSub: t('missionValue.messageSub'),
+    officialPosition: t('missionValue.officialPosition'),
+    representativeName: t('missionValue.representativeName'),
     src: '/img/top/imgDirector_desktop.png',
     alt: 'general director'
   };
@@ -32,7 +34,7 @@ const MissionValue: React.FC = () => {
         <div className={styles.textArea}>
           <TitleSection title={missionValue.title}></TitleSection>
           <MessageMain message={missionValue.messageMain}></MessageMain>
-          <MessageSub message={missionValue.subMessage}></MessageSub>
+          <MessageSub message={missionValue.messageSub}></MessageSub>
           <p className={styles.officialPosition}>{missionValue.officialPosition}</p>
           <p className={styles.representativeName}>{missionValue.representativeName}</p>
         </div>
