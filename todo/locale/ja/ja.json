@@ -10,6 +10,12 @@
     "officialPosition": "General Director",
     "representativeName": "Shuhei Nishikawa"
   },
+  "services": {
+    "title": "SERVICES",
+    "descriptionWexpatsJobs": "WeXpats Jobsは日本で仕事を探している外国人のための求人サイトです。 国内最大規模の外国人歓迎求人の中から、母国語で探すことができるサービスです。",
+    "descriptionWexpatsSchool": "WeXpats Schoolは、日本で留学を考えている外国人のための留学専門エージェントです。留学の相談から日本での生活までを一貫してサポートするサービスです。",
+    "descriptionWexpatsNihongo": "WeXpats Nihongoは日本語を学びたい外国人のための、語学学習サービスです。反転授業を活用した「アウトプット」重視の実践的な授業で、将来のキャリアアップを支援します。"
+  },
   "company": {
     "messageMain": "レバレジーズグループは、日本・世界に20以上の拠点を展開し、創業以来成長を続けるグローバルカンパニーです。",
     "messageSub": "「関係者全員の幸福の追求」という経営方針のもと、お客様、従業員など、関わるすべての方とのWin-Winの関係構築を目指します。",

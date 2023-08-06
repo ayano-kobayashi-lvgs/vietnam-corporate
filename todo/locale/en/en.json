@@ -10,6 +10,12 @@
     "officialPosition": "General Director",
     "representativeName": "Shuhei Nishikawa"
   },
+  "services": {
+    "title": "SERVICES",
+    "descriptionWexpatsJobs": "WeXpats Job is a website for job search for the non-Japanese people who are looking to work in Japan. WeXpats Job has one of the largest pools of jobs which welcome foreign employment. With WeXpats Job, you can search jobs in your own language!",
+    "descriptionWexpatsSchool": "WeXpats School is an agent which specializes in service for studying abroad for the people who are thinking about studying in Japan. Our school provides a full range of services from consultation for study abroad to living in Japan.",
+    "descriptionWexpatsNihongo": "WeXpats Nihongo is a language learning service for non-Japanese people. The method of active learning is used for practical vocal class."
+  },
   "company": {
     "messageMain": "Based in Tokyo, Leverages Group is a fast growing global recruitment group that has 20+ offices across Japan and worldwide.",
     "messageSub": "We pursue not only the happiness of our clients and customers but also our employees, bringing the best out of everyone and creating win-win situations and values for all people concerned.",
