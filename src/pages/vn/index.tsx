@@ -1,13 +1,13 @@
 import React from "react";
 import type { NextPage } from 'next';
-import '../locale/i18n';
+import '../../locale/i18n';
 import Head from 'next/head';
-import Services from '../components/PageContents/Top/Services/Services';
-import Contact from '../components/PageContents/Top/Contact/Contact';
-import Company from '../components/PageContents/Top/Company/Company';
-import MissionValue from "../components/PageContents/Top/MissionValue/MissionValue";
-import Mv from "@components/PageContents/Top/Mv/Mv";
-import Footer from "@components/Organisms/Footer/Footer";
+import Services from '../../components/PageContents/Top/Services/Services';
+import Contact from '../../components/PageContents/Top/Contact/Contact';
+import Company from '../../components/PageContents/Top/Company/Company';
+import MissionValue from "../../components/PageContents/Top/MissionValue/MissionValue";
+import Mv from "../../components/PageContents/Top/Mv/Mv";
+import Footer from "../../components/Organisms/Footer/Footer";
 
 const Index: NextPage = () => {
   return (
