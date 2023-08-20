@@ -122,10 +122,12 @@ const Company: React.FC = () => {
 
   return (
     <section className={styles.contentBox}>
-      <TitleSection title={'OUR GROUP'}></TitleSection>
-      <div className={styles.messageBox}>
-        <MessageMain message={Message.messageMain}></MessageMain>
-        <MessageSub message={Message.messageSub}></MessageSub>
+      <div className={styles.titleWrap}>
+        <TitleSection title={'OUR GROUP'}></TitleSection>
+        <div className={styles.messageBox}>
+          <MessageMain message={Message.messageMain}></MessageMain>
+          <MessageSub message={Message.messageSub}></MessageSub>
+        </div>
       </div>
       <div className={styles.CompanyList}>
         {companyInfoList.map((company, index) => {
