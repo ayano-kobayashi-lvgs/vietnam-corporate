@@ -7,6 +7,7 @@ import Contact from '../components/PageContents/Top/Contact/Contact';
 import Company from '../components/PageContents/Top/Company/Company';
 import MissionValue from "../components/PageContents/Top/MissionValue/MissionValue";
 import Mv from "@components/PageContents/Top/Mv/Mv";
+import Footer from "@components/Organisms/Footer/Footer";
 
 const Index: NextPage = () => {
   return (
@@ -19,14 +20,12 @@ const Index: NextPage = () => {
         <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:wght@100;300;400;500;700;900&display=swap" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" media="print" onLoad="this.media='all'" />
       </Head>
-      <main>
-        <Mv />
-        <MissionValue />
-        <Services />
-        <Company />
-        <Contact />
-      </main>
-      <footer></footer>
+      <Mv />
+      <MissionValue />
+      <Services />
+      <Company />
+      <Contact />
+      <Footer />
     </div>
   );
 }

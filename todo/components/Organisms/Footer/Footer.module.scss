@@ -1,0 +1,32 @@
+$color-primaryGreen: #00A6A6;
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2% 5%;
+  color: #fff;
+  background: $color-primaryGreen;
+  font-family: 'Roboto',Helvetica Neue,Helvetica,sans-serif;
+}
+
+.logoWrap {
+  width: 100%;
+}
+
+.logo {
+  display: block;
+  vertical-align: middle;
+}
+
+.menuWrap {
+  width: 100%;
+  text-align: right;
+}
+
+.copyright {
+  padding-top: 10px;
+  font-weight: 300;
+  font-size: 12px;
+  margin: 0;
+}
