@@ -4,11 +4,12 @@ $color-quarterlyGreen: #ADD9D9;
   display: inline-block;
   position: relative;
   vertical-align: top;
-  margin-right: 5%;
+  margin: 0 5% 0 0;
   color: $color-quarterlyGreen;
   font-weight: 900;
   letter-spacing: .05em;
   font-size: 30px;
+  width: 25%;
 
   &::after {
     position: absolute;
