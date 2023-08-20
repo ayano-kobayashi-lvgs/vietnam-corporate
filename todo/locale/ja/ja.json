@@ -102,5 +102,18 @@
       "title": "Eメール",
       "info": "vn-contact@leverages.jp"
     }
+  },
+  "header": {
+    "menuList": {
+      "top": "TOP",
+      "group": "GROUP",
+      "access": "ACCESS"
+    }
+  },
+  "footer": {
+    "menuList": {
+      "privacyPolicyAndTermsOfUse": "プライバシーポリシー、利用規約",
+      "howWeHandlePersonalData": "個人情報の取扱い"
+    }
   }
 }
