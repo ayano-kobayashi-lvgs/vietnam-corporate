@@ -1,5 +1,5 @@
-$color-quarterlyGreen: #ADD9D9;
-$color-darkGray: #454545;
+@use "styles/sass/foundation/variables.scss" as *;
+@use "styles/sass/foundation/mixin.scss" as *;
 
 .list {
   font-weight: 300;
@@ -16,14 +16,14 @@ $color-darkGray: #454545;
 }
 
 .title {
-  color: $color-quarterlyGreen;
+  color: $color-green;
   font-weight: 700;
   letter-spacing: .05em;
 }
 
 .text {
-  font-size: 16px;
-  color: $color-darkGray;
+  @include font-size(16);
+  color: $color-gray;
 }
 
 .textWithSpace {
@@ -32,15 +32,15 @@ $color-darkGray: #454545;
 
 .link {
   display: inline-block;
-  color: $color-darkGray;
+  color: $color-gray;
   text-decoration: none;
 
   &:hover {
-      color: $color-darkGray;
+      color: $color-gray;
       text-decoration: underline;
   }
 
   &:visited {
-      color: $color-darkGray;
+      color: $color-gray;
   }
 }

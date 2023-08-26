@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
       <div className={styles.footer}>
         <div className={styles.logoWrap}>
           <p className={styles.logo}>
-            <img src={footerMenu.src} alt={footerMenu.alt} width="220"></img>
+            <img src={footerMenu.src} alt={footerMenu.alt}></img>
           </p>
         </div>
         <div className={styles.menuWrap}>
