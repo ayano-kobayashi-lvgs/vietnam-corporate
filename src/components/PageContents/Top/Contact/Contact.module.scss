@@ -1,18 +1,16 @@
-$color-primaryGreen: #00A6A6;
-$color-2ndGreen: #AAB6F2;
-$color-2ndFont: #5B5C5D;
+@use "styles/sass/foundation/variables.scss" as *;
+@use "styles/sass/foundation/mixin.scss" as *;
 
 .contentBox {
   margin: 5% 0 10%;
-  font-family: 'Roboto',Helvetica Neue,Helvetica,sans-serif;
   line-height: 1.4;
 }
 
 .title {
-  font-size: 50px;
+  @include font-size(50);
   position: relative;
   margin: 5% 0 10%;
-  color: $color-primaryGreen;
+  color: $color-green;
   font-weight: 900;
   text-align: center;
   letter-spacing: .05em;
@@ -25,7 +23,7 @@ $color-2ndFont: #5B5C5D;
     width: 100px;
     height: 10px;
     margin: 3% auto;
-    background: $color-primaryGreen;
+    background: $color-green;
     content: '';
   }
 }
@@ -56,14 +54,14 @@ $color-2ndFont: #5B5C5D;
 }
 
 .itemTitle {
-  font-size: 20px;
+  @include font-size(20);
   font-weight: 500;
-  color: $color-2ndFont;
+  color: $color-font-2;
   margin: 10px 0;
 }
 
 .info {
-  font-size: 18px;
+  @include font-size(18);
 }
 
 .map {

@@ -32,8 +32,8 @@ const MissionValue: React.FC = () => {
     <section className={styles.contBox}>
       <div className={styles.card}>
         <div className={styles.textArea}>
-          <TitleSection title={missionValue.title}></TitleSection>
-          <MessageMain message={missionValue.messageMain}></MessageMain>
+          <TitleSection title={missionValue.title} widthSpecified={false}></TitleSection>
+          <MessageMain message={missionValue.messageMain} marginNeeded={true}></MessageMain>
           <MessageSub message={missionValue.messageSub}></MessageSub>
           <p className={styles.officialPosition}>{missionValue.officialPosition}</p>
           <p className={styles.representativeName}>{missionValue.representativeName}</p>

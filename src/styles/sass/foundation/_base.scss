@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+@use "styles/sass/foundation/variables.scss" as *;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  min-width: 320px;
+  line-height: 1.4;
+  color: $color-gray;
+  font-family: 'Roboto', Helvetica Neue, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 14px;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+// IEのsvg表示崩れ対応
+img[src*='.svg'] {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+input[type="button"],
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="submit"],
+textarea[type="text"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}

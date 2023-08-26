@@ -1,8 +1,9 @@
-$color-font: #333333;
+@use "styles/sass/foundation/variables.scss" as *;
+@use "styles/sass/foundation/mixin.scss" as *;
 
 .message {
   font-weight: 300;
-  font-size: 16px;
+  @include font-size(16);
   color: $color-font;
   line-height: 1.4;
 }

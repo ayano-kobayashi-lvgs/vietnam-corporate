@@ -122,27 +122,29 @@ const Company: React.FC = () => {
 
   return (
     <section className={styles.contentBox}>
-      <div className={styles.titleWrap}>
-        <TitleSection title={'OUR GROUP'}></TitleSection>
-        <div className={styles.messageBox}>
-          <MessageMain message={Message.messageMain}></MessageMain>
-          <MessageSub message={Message.messageSub}></MessageSub>
+      <div className={styles.companyWrap}>
+        <div className={styles.titleWrap}>
+          <TitleSection title={'OUR GROUP'} widthSpecified={true}></TitleSection>
+          <div className={styles.messageBox}>
+            <MessageMain message={Message.messageMain} marginNeeded={false}></MessageMain>
+            <MessageSub message={Message.messageSub}></MessageSub>
+          </div>
         </div>
-      </div>
-      <div className={styles.CompanyList}>
-        {companyInfoList.map((company, index) => {
-          return (
-            <div key={index} className={styles.listItem}>
-              <p className={styles.img}>
-                <img src={company.src} alt={company.alt}></img>
-              </p>
-              <div className={styles.infoArea}>
-                <p className={styles.header}>{company.header}</p>
-                <ListCompanyInfo companyInfo={company.infoList} hasSpace={company.hasSpace}></ListCompanyInfo>
+        <div className={styles.CompanyList}>
+          {companyInfoList.map((company, index) => {
+            return (
+              <div key={index} className={styles.listItem}>
+                <p className={styles.img}>
+                  <img src={company.src} alt={company.alt}></img>
+                </p>
+                <div className={styles.infoArea}>
+                  <p className={styles.header}>{company.header}</p>
+                  <ListCompanyInfo companyInfo={company.infoList} hasSpace={company.hasSpace}></ListCompanyInfo>
+                </div>
               </div>
-            </div>
-          )
-        })}
+            )
+          })}
+        </div>
       </div>
     </section>
   );

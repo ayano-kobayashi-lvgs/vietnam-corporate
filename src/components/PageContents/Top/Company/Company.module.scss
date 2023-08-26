@@ -1,10 +1,15 @@
-$color-primaryGreen: #00A6A6;
+@use "styles/sass/foundation/variables.scss" as *;
+@use "styles/sass/foundation/mixin.scss" as *;
 
 .contentBox {
-  max-width: 1200px;
-  margin: auto;
-  font-family: 'Roboto',Helvetica Neue,Helvetica,sans-serif;
   line-height: 1.4;
+  margin: 0 5% 10%;
+  padding-top: 5%;
+}
+
+.companyWrap {
+  margin: auto;
+  max-width: 1200px;
 }
 
 .titleWrap {
@@ -50,8 +55,8 @@ $color-primaryGreen: #00A6A6;
 }
 
 .header {
-  color: $color-primaryGreen;
+  color: $color-green;
   font-weight: 700;
   letter-spacing: .05em;
-  font-size: 24px;
+  @include font-size(24);
 }

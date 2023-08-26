@@ -1,7 +1,10 @@
+@use "styles/sass/foundation/variables.scss" as *;
+@use "styles/sass/foundation/mixin.scss" as *;
+
 .menuList {
   width: 100%;
   list-style: none;
-  font-size: 14px;
+  @include font-size(14);
   padding: 0;
 }
 
@@ -19,7 +22,7 @@
       left: -11px;
       width: 1px;
       height: 15px;
-      background: #fff;
+      background: $color-white;
       content: '';
     }
   }
@@ -28,10 +31,10 @@
 .menuItemLink {
   text-decoration: none;
   display: block;
-  color: #fff;
+  color: $color-white;
 
   &:hover {
-    color: #fff;
+    color: $color-white;
     text-decoration: underline;
   }
 }

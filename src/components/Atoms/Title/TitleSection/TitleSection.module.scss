@@ -1,15 +1,15 @@
-$color-quarterlyGreen: #ADD9D9;
+@use "styles/sass/foundation/variables.scss" as *;
+@use "styles/sass/foundation/mixin.scss" as *;
 
 .title {
   display: inline-block;
   position: relative;
   vertical-align: top;
   margin: 0 5% 0 0;
-  color: $color-quarterlyGreen;
+  color: $color-green-4;
   font-weight: 900;
   letter-spacing: .05em;
-  font-size: 30px;
-  width: 25%;
+  @include font-size(30);
 
   &::after {
     position: absolute;
@@ -18,7 +18,11 @@ $color-quarterlyGreen: #ADD9D9;
     width: 90px;
     height: 8px;
     margin: 3% auto;
-    background-color: $color-quarterlyGreen;
+    background-color: $color-green-4;
     content: '';
   }
+}
+
+.widthQuarter {
+  width: 25%;
 }

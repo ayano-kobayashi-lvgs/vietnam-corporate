@@ -1,8 +1,15 @@
+@use "styles/sass/foundation/variables.scss" as *;
+@use "styles/sass/foundation/mixin.scss" as *;
+
 .contentBox {
-  max-width: 1200px;
-  margin: auto;
-  font-family: 'Roboto',Helvetica Neue,Helvetica,sans-serif;
+  margin: 0 5% 10%;
   line-height: 1.4;
+  padding-top: 5%;
+}
+
+.serviceListWrap {
+  margin: auto;
+  max-width: 1200px;
 }
 
 .img {
@@ -23,7 +30,7 @@
 }
 
 .description {
-  font-size: 16px;
+  @include font-size(16);
   letter-spacing: .01em;
   line-height: 1.6;
   width: 60%;
@@ -32,15 +39,15 @@
 .button {
   > a {
     position: relative;
-    background-color: #61a9a9;
-    color: #fff;
+    background-color: $color-green-2;
+    color: $color-white;
     display: inline-block;
-    font-size: 16px;
+    @include font-size(16);
     padding: 10px 44px 10px 24px;
     text-decoration: none;
     :hover,
     :visited {
-      background-color: #6eb8b8;
+      background-color: $color-green-3;
       text-decoration: none;
       transition: .3s;
     }

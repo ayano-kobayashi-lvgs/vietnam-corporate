@@ -36,26 +36,28 @@ const Services: React.FC = () => {
 
   return (
     <section className={styles.contentBox}>
-      <TitleSection title={t('services.title')}></TitleSection>
-      <div className={styles.serviceList}>
-        {serviceList.map((service, index) => {
-          return (
-            <div key={index}>
-              <p className={styles.img}>
-                <Image src={service.src} alt={service.alt} height={56} width={300}></Image>
-              </p>
-            <div className={styles.descriptionArea}>
-              <p className={styles.description}>{service.description}</p>
-              <p className={styles.button}>
-                <a href={service.reflink} target="_blank">
-                  Read more
-                  <span className={styles.buttonIcon}></span>
-                </a>
-              </p>
+      <div className={styles.serviceListWrap}>
+        <TitleSection title={t('services.title')} widthSpecified={true}></TitleSection>
+        <div className={styles.serviceList}>
+          {serviceList.map((service, index) => {
+            return (
+              <div key={index}>
+                <p className={styles.img}>
+                  <Image src={service.src} alt={service.alt} height={56} width={300}></Image>
+                </p>
+              <div className={styles.descriptionArea}>
+                <p className={styles.description}>{service.description}</p>
+                <p className={styles.button}>
+                  <a href={service.reflink} target="_blank">
+                    Read more
+                    <span className={styles.buttonIcon}></span>
+                  </a>
+                </p>
+              </div>
             </div>
-          </div>
-          )
-        })}
+            )
+          })}
+        </div>
       </div>
     </section>
   );

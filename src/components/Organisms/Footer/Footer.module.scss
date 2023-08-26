@@ -1,13 +1,13 @@
-$color-primaryGreen: #00A6A6;
+@use "styles/sass/foundation/variables.scss" as *;
+@use "styles/sass/foundation/mixin.scss" as *;
 
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding: 2% 5%;
-  color: #fff;
-  background: $color-primaryGreen;
-  font-family: 'Roboto',Helvetica Neue,Helvetica,sans-serif;
+  color: $color-white;
+  background: $color-green;
 }
 
 .logoWrap {
@@ -17,6 +17,7 @@ $color-primaryGreen: #00A6A6;
 .logo {
   display: block;
   vertical-align: middle;
+  width: 220px;
 }
 
 .menuWrap {
@@ -27,6 +28,6 @@ $color-primaryGreen: #00A6A6;
 .copyright {
   padding-top: 10px;
   font-weight: 300;
-  font-size: 12px;
+  @include font-size(12);
   margin: 0;
 }
